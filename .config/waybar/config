@@ -1,0 +1,186 @@
+{
+
+    "layer": "top", // Waybar at top layer
+
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+
+    "height": 31, // Waybar height (to be removed for auto height)
+
+    "gtk-layer-shell": false,
+
+    "modules-left": ["sway/workspaces"],
+
+    "modules-center": ["sway/window"],
+
+    "modules-right": [
+	
+	"tray",
+
+        "cpu", 
+
+        "pulseaudio",
+
+	"battery",
+
+        "clock"],
+    
+    // Modules configuration
+
+    "sway/workspaces": {
+
+        "disable-scroll": true,
+
+        "all-outputs": true,
+
+        "format": "{icon}",
+
+        "format-icons": {
+
+            "1": "sh",
+
+            "2": "web",
+
+            "3": "dev", 
+
+            "4": "ch",
+
+        }
+
+    },
+
+    "wlr/workspaces": {
+
+        "sort-by-name": true
+
+        // "on-click": "/usr/local/bin/hyprctl dispatch workspace 3"
+
+        // "sort-by-coordinates": true
+
+    },
+
+    "tray": {
+
+        "icon-size": 30,
+
+        "spacing": 6
+
+    },
+
+    "custom/pipewire": {
+
+        "tooltip": false,
+
+        "max-length": 6,
+
+        "exec": "$HOME/.config/waybar/scripts/pipewire.sh",
+
+    },
+
+    "clock": {
+
+        "format": "{:%H:%M}",
+
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+
+        "format-alt": "{:%H:%M}",
+
+        "interval": 1
+
+    },
+
+    "cpu": {
+
+        "format": "🖥&#8239;{usage}%",
+
+        "tooltip": false,
+
+    },
+
+    "battery": {
+
+        "states": {
+
+            // "good": 95,
+
+            "warning": 30,
+
+            "critical": 15
+
+        },
+
+        "format": "{icon}&#8239; {capacity}%",
+
+        "format-charging": "🗲&#8239; {capacity}%",
+
+        "format-plugged": "🗲&#8239; {capacity}%",
+
+        "format-alt": "{icon} {time}",
+
+        // "format-good": "", // An empty format will hide the module
+
+        // "format-full": "",
+
+        "format-icons": ["", "", "", "", ""]
+
+        // "format-icons": ["", "", "", "", ""]
+
+    },
+
+    "battery#bat2": {
+
+        "bat": "BAT2"
+
+    },
+
+    "network": {
+
+        // "interface": "wlp8s0", // (Optional) To force the use of this interface
+
+        "format-wifi": "📶&#8239;{essid} ({signalStrength}%)",
+
+        "format-ethernet": "&#8239;{ifname}: {ipaddr}/{cidr}",
+
+        "format-linked": "&#8239;{ifname} (No IP)",
+
+        "format-disconnected": "✈&#8239;Disconnected",
+
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+
+    },
+
+    "pulseaudio": {
+
+        // "scroll-step": 1, // %, can be a float
+
+        //"format": "{icon}&#8239;{volume}% {format_source}",
+
+        //"format-bluetooth": "{volume}% {icon} {format_source}",
+
+        //"format-bluetooth-muted": "🔈 {icon} {format_source}",
+
+        "format-muted": "M",
+
+        "format-source": "🔈&#8239;{volume}%",
+
+        "format-source-muted": "",
+
+        "format-icons": {
+
+            "headphone": "💡",
+
+            "hands-free": "🔈",
+
+            "headset": "🔈",
+
+            "phone": "",
+
+            "portable": "",
+
+            "car": "",
+
+            "default": ["🔈", "🔈", "🔈"]
+
+        },
+
+    },
+}

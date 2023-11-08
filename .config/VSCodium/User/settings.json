@@ -1,0 +1,4 @@
+{
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.openRepositoryInParentFolders": "never"
+}

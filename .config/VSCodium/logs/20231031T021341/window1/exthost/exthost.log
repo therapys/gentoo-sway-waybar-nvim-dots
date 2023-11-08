@@ -1,0 +1,88 @@
+2023-10-31 02:13:46.688 [info] Extension host with pid 5754 started
+2023-10-31 02:13:46.688 [info] Skipping acquiring lock for /home/karl/.config/VSCodium/User/workspaceStorage/8904d696b04e1028c72803b30b66088a.
+2023-10-31 02:13:47.473 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-31 02:13:47.488 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-10-31 02:13:49.668 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-31 02:13:49.713 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-31 02:13:50.367 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-31 02:13:50.458 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-31 02:13:50.931 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-31 02:13:51.077 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.078 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.079 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.079 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.080 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.081 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.081 [error] Canceled: Canceled
+	at Object.k [as canceled] (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1342)
+	at /opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9122
+	at Array.forEach (<anonymous>)
+	at i.dispose (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:9026)
+	at s.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10453)
+	at o.terminate (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/opt/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-31 02:13:51.082 [info] Extension host with pid 5754 exiting with code 0
+2023-10-31 02:13:51.085 [info] Eager extensions activated

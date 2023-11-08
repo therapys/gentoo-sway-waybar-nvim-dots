@@ -1,0 +1,28 @@
+2023-11-02 22:24:09.007 [info] Extension host with pid 3676 started
+2023-11-02 22:24:09.007 [info] Skipping acquiring lock for /home/karl/.config/VSCodium/User/workspaceStorage/332c483ace34f3311ccac907ef018101.
+2023-11-02 22:24:09.285 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-02 22:24:09.317 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-11-02 22:24:10.667 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-02 22:24:10.675 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-11-02 22:24:10.838 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-02 22:24:10.901 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-02 22:24:11.328 [info] Eager extensions activated
+2023-11-02 22:24:11.347 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:24:11.356 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:24:11.380 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:27:05.587 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-02 22:27:36.964 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-02 22:27:37.017 [info] Extension host with pid 3676 exiting with code 0
+2023-11-02 22:27:40.606 [info] Extension host with pid 4039 started
+2023-11-02 22:27:40.606 [info] Skipping acquiring lock for /home/karl/.config/VSCodium/User/workspaceStorage/42823ca8a07b81130aeb82dd9e29610c.
+2023-11-02 22:27:40.702 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-02 22:27:40.721 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-02 22:27:40.782 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-02 22:27:40.908 [info] Eager extensions activated
+2023-11-02 22:27:40.991 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:27:40.995 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:27:41.007 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-11-02 22:32:34.221 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-02 23:01:43.770 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-11-02 23:01:43.817 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-11-02 23:01:45.211 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

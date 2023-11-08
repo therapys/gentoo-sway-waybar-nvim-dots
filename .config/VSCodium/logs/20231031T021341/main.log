@@ -1,0 +1,4 @@
+2023-10-31 02:13:42.009 [info] update#setState disabled
+2023-10-31 02:13:42.014 [info] update#ctor - updates are disabled as there is no update URL
+2023-10-31 02:13:51.123 [info] Extension host with pid 5754 exited with code: 0, signal: unknown.
+2023-10-31 02:13:51.125 [error] [UtilityProcess id: 1, type: extensionHost, pid: 5754]: crashed with code 11 and reason 'crashed'

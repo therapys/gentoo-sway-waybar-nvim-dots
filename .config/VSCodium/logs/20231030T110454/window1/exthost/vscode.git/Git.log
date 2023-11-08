@@ -1,0 +1,22 @@
+2023-10-30 11:05:02.950 [info] Log level: Info
+2023-10-30 11:05:02.951 [info] Validating found git in: "git"
+2023-10-30 11:05:02.951 [info] Using git "2.41.0" from "git"
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [21ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2023-10-30 11:05:02.951 [info] Open repository: /home/karl/Code/strikt/mvp
+2023-10-30 11:05:02.951 [info] > git config --get commit.template [12ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [28ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [10ms]
+2023-10-30 11:05:02.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [20ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [14ms]
+2023-10-30 11:05:02.951 [info] > git status -z -uall [62ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [23ms]
+2023-10-30 11:05:02.951 [info] > git rev-parse --show-toplevel [30ms]
+2023-10-30 11:05:02.951 [info] > git config --get commit.template [23ms]
+2023-10-30 11:05:02.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2023-10-30 11:05:02.964 [info] > git status -z -uall [15ms]
+2023-10-30 11:05:03.884 [info] > git check-ignore -v -z --stdin [8ms]
+2023-10-30 11:05:06.026 [info] > git show --textconv :src/handlers/geolocate.ts [36ms]
+2023-10-30 11:05:06.030 [info] > git ls-files --stage -- /home/karl/Code/strikt/mvp/src/handlers/geolocate.ts [7ms]
+2023-10-30 11:05:06.100 [info] > git cat-file -s 73a334031d331cead360c1b13c5ef4044e2644f8 [38ms]

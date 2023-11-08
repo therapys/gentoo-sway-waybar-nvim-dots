@@ -1,0 +1,13 @@
+2023-10-27 21:39:43.896 [info] Extension host with pid 13351 started
+2023-10-27 21:39:43.897 [info] Skipping acquiring lock for /home/karl/.config/VSCodium/User/workspaceStorage/8904d696b04e1028c72803b30b66088a.
+2023-10-27 21:39:44.560 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-27 21:39:44.579 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-10-27 21:39:45.674 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-27 21:39:45.681 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-27 21:39:47.428 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-27 21:39:47.575 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-27 21:39:49.002 [info] Eager extensions activated
+2023-10-27 21:39:49.444 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 21:39:49.451 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 21:39:50.052 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-27 21:40:27.347 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'

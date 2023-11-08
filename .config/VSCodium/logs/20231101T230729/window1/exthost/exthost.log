@@ -1,0 +1,15 @@
+2023-11-01 23:07:34.416 [info] Extension host with pid 8066 started
+2023-11-01 23:07:34.416 [info] Skipping acquiring lock for /home/karl/.config/VSCodium/User/workspaceStorage/332c483ace34f3311ccac907ef018101.
+2023-11-01 23:07:34.743 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-01 23:07:34.766 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-11-01 23:07:34.875 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-01 23:07:35.134 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-01 23:07:35.592 [info] Eager extensions activated
+2023-11-01 23:07:35.650 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 23:07:35.658 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 23:07:35.738 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 23:07:53.013 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-01 23:08:11.382 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-11-01 23:09:33.897 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-01 23:42:21.155 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-01 23:42:21.235 [info] Extension host with pid 8066 exiting with code 0
